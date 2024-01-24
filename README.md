@@ -20,7 +20,7 @@
 **Buying and Selling:** Seamlessly trade cryptocurrencies directly from the app, making transactions convenient and secure.
 
 ## Demo Video🎥
- here's a video [link]()
+ here's a video [link](https://youtu.be/bvrZ69_RaA0)
 
 ## Screenshots🖼️
 #### **Website:**
