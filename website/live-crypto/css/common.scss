@@ -1,0 +1,189 @@
+@import 'mixins';
+@import 'fonts';
+
+
+body {
+    font-family: "Poppins", Arial, Verdana, sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+img {
+    outline: none;
+    border: none;
+}
+
+input {
+    &:focus {
+        outline: none;
+    }
+}
+
+html, 
+body {
+    margin:0; 
+    padding:0; 
+    height:100%;
+    font-size: 11px;
+    font-family: "Poppins", Arial, Verdana, sans-serif;    
+}
+
+.container {
+    position: relative;	
+    min-height:100%;
+}
+
+* {
+    margin:0px; 
+    padding:0px;
+}
+
+.centered {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1140px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    // color: #BD7E1C;
+}
+// .centered #one h1{
+//     color: #BD7E1C;
+/
+    /* Add this style block in the head of your HTML document or in an external CSS file */
+
+    /* Change the color of the h1 element with id "one" */
+
+    /* Add this style block in the head of your HTML document or in an external CSS file */
+
+    /* Change the color of the h1 element with id "one" */
+   
+    }
+//  #one {
+//         color: red; /* Change this to the color you prefer using valid color representations */
+//     }
+
+//     /* Change the color of the text inside the ".explanation" div */
+//     .explanation {
+//         color: green; /* Change this to the color you prefer using valid color representations */
+//     }
+
+//     /* Change the background color of the ".wallet_app" div */
+//     .wallet_app {
+//         background-color: blue; /* Change this to the color you prefer using valid color representations */
+//     }
+
+//     /* Change the color of the button text inside the ".btn" class */
+//     .btn {
+//         color: white; /* Change this to the color you prefer using valid color representations */
+//     }
+
+//     /* Change the background color of the button inside the ".btn" class */
+//     .btn {
+//         background-color: black; /* Change this to the color you prefer using valid color representations */
+
+.hidden {
+    opacity: 0 !important;
+}
+
+.visible {
+    opacity: 1 !important;
+}
+
+.btn {
+    height: 56px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 28px;
+    line-height: 56px;
+    min-width: 185px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+    transition: 0.3s all;
+    @include gradient-top(#505cff, #4892ff);
+    @include box-shadow(0px -13px 32px 0px rgba(123, 158, 255, 0.17));
+
+    span, img {
+        vertical-align: middle;
+    }
+
+    img {
+        margin-right: 10px;
+        margin-top: -4px;
+    }
+
+    &.pink {
+        @include gradient(#BD7E1C);
+        @include box-shadow(0px -13px 32px 0px rgba(220, 182, 28, 0.76));
+
+        &:hover {
+            @include gradient-top(#BD7E1C);
+        }
+
+        &:active {
+            @include gradient-top(0px -13px 32px 0px rgba(220, 182, 28, 0.76));
+        }
+    }
+    
+    &:hover {
+        //box-shadow: 0 0 15px #57d1c6;
+        @include gradient-top(#505cff, #505cff);
+    }
+
+    &:active {
+        @include gradient-top(#4892ff, #4892ff);
+    }
+}
+
+.end_content {
+    position: relative;
+    height: 650px;
+    clear: both;    
+}
+
+h1 {
+    float: left;
+    width: 100%;
+    font-weight: 400;
+    color:#BD7E1C;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+}
+
+h2 {
+    width: 100%;
+    font-weight: 400;
+    color: #BD7E1C;
+    font-size: 42px;
+    line-height: 100%;
+}
+
+.explanation {
+    position: relative;
+    max-width: 992px;
+    margin: 0 auto;
+    color: #b2bad5;
+    background-color: black;
+    font-size: 17px;
+    line-height: 31px;
+    padding-top: 40px;
+
+    .picture {
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,140 @@
+body {
+    background: black url('../img/bg.jpg') no-repeat 50% 0;
+    background-color: black;
+}
+
+.wallet_app {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.wallet_app .picture {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.wallet_app .explanation {
+    max-width: 750px;
+    text-align: center;
+}
+
+.wallet_app .actions {
+    width: 100%;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.dpay_app, .store {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 215px;
+}
+
+.dpay_app .picture,
+.store .picture {
+    padding-right: 500px;
+}
+
+.dpay_app .picture img {
+    float: left;
+}
+
+.dpay_app .info,
+.store .info {
+    float: right;
+    width: 495px;
+    padding-top: 260px;
+}
+
+.dpay_app .actions,
+.store .actions {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.hard_wallet {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 275px;
+}
+
+.hard_wallet .centered {
+    overflow: visible;
+}
+
+.hard_wallet .picture {
+    padding-left: 460px;
+}
+
+.hard_wallet .picture img {
+    float: right;
+    margin-right: -45px;
+}
+
+.hard_wallet .info {
+    float: left;
+    width: 460px;
+    padding-top: 50px;
+}
+
+.hard_wallet .actions {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.hard_wallet .actions .pink {
+    margin-left: 20px;
+}
+
+.store {
+    padding-top: 440px;
+}
+
+.store .centered {
+    overflow: visible;
+}
+
+.store .info {
+    padding-top: 100px;
+}
+
+.store .picture img {
+    margin-left: -95px;
+}
+
+.buy {
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.buy .centered {
+    overflow: visible;
+}
+
+.buy .info {
+    width: 430px;
+    float: left;
+    padding-top: 460px;
+}
+
+.buy .info .actions {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.buy .picture {
+    float: right;
+    width: 50%;
+}
+
+.buy .picture img {
+    float: left;
+}
